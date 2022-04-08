@@ -1,0 +1,95 @@
+*{
+
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-color: rgb(204, 197, 197);
+}
+nav{
+
+    background-color: white;
+}
+
+.navbar-brand{
+font-weight: 900;
+color: orange;
+font-size: 1.25rem;
+
+}
+
+.navbar-brand:hover{
+    color: orange;
+    
+    }
+.nav-link{
+
+    color:black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+.sol_taraf{
+
+    background-color: orangered;
+}
+.transparan_yazi{
+ color: gray;
+
+}
+
+.buton{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    border: 3px solid orangered;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 2px 5px 18px  rgb(238, 173, 54);
+}
+
+.buton:active{
+    translate: 4px ;
+}
+.buton:hover{
+
+    background-color: rgb(250, 178, 44);
+}
+
+#iletisim_box{
+
+    color: white;
+    height: 800px;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.navbar{
+
+    text-align: center;
+}
+
+h1{
+    display: inline-block; 
+    border-bottom: 5px solid orange;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
